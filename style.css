@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: monospace;
+    background-color: lavender;
+    margin: 0;
+  }
+  
+  .container {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+  }
+  
+  header img {
+    width: 280px; 
+  }
+  
+  @media (max-width: 501px) {
+    #reviews {
+      display: none;
+    }
+  }
